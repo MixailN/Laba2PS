@@ -37,6 +37,12 @@ class Source {
             case '/':
                 System.out.println(calc1.Div(number1, number2));
                 break;
+            case '>':
+                System.out.println(calc1.Max(number1, number2));
+                break;
+            case '<':
+                System.out.println(calc1.Min(number1, number2));
+                break;
         }
         in.close();       
     }
