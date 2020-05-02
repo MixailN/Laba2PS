@@ -72,4 +72,12 @@ public class Calculator {
     public double Power(double number1, double number2) {
         return Math.pow(number1, number2);
     }
+    /**
+     * @param number1 first number
+     * @param number2 second number
+     * @return How many percent is one number from another
+     */
+    public double Percent(double number1, double number2) {
+        return (number1 / number2) * 100;
+    }
 }
