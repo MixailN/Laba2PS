@@ -64,4 +64,20 @@ public class Calculator {
             return number1;
         }
     }
+    /**
+     * @param number1 first number
+     * @param number2 second number
+     * @return Power of numbers
+     */
+    public double Power(double number1, double number2) {
+        return Math.pow(number1, number2);
+    }
+    /**
+     * @param number1 first number
+     * @param number2 second number
+     * @return How many percent is one number from another
+     */
+    public double Percent(double number1, double number2) {
+        return (number1 / number2) * 100;
+    }
 }
