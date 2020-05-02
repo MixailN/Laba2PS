@@ -40,4 +40,16 @@ public class Calculator {
         result = number1 / number2;
         return result;
     }
+    /**
+     * @param number1 first number
+     * @param number2 second number
+     * @return Largest of these numbers
+     */
+    public double Max(double number1, double number2) {
+        if(number1 > number2) {
+            return number1;
+        } else {
+            return number2;
+        }
+    }
 }
