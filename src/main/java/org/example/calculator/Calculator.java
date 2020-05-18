@@ -40,6 +40,7 @@ public class Calculator {
         result = number1 / number2;
         return result;
     }
+    //comment
     /**
      * @param number1 first number
      * @param number2 second number
